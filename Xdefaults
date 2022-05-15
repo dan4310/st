@@ -1,12 +1,29 @@
 !! Transparency (0-1):
-!st.alpha: 0.92
-!st.alphaOffset: 0.3
+*.alpha: 0.8
+*.alphaOffset: 0.3
 
 !! Set a default font and font size as below:
-st.font: Monospace-11;
+*.font: Monospace-11;
 
- st.termname: st-256color
-! st.borderpx: 2
+*.shell: /usr/local/bin/st
+*.gappiv: 10
+*.gappih: 10
+*.gappov: 10
+*.gappoh: 10
+*.termname: st-256color
+*.borderpx: 2
+!top bar
+*.normbgcolor: #140c11
+!secondary border
+*.normbordercolor: #140c11
+!foreground color font
+*.normfgcolor: #ffffff
+!selected tag and remainder topbar
+*.selbgcolor: #66023C
+!selected border
+*.selbordercolor: #66023C
+!highlighted text
+*.selfgcolor: #ffffff
 
 !! Set the background, foreground and cursor colors as below:
 
